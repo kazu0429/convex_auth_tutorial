@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import { useUser } from '@clerk/clerk-react'
-import React from 'react'
+import { useUser } from "@clerk/clerk-react";
+import React from "react";
 
 const MainPage = () => {
     const { user } = useUser();
-    
+
     return (
         <div className='h-full flex justify-center items-center'>
             <div className='flex flex-col items-center'>
